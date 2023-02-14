@@ -1,0 +1,6 @@
+<button (click)="loadData()">LoadData</button>
+<div class="data-box">
+  <div *ngFor="let feladat of feladatok" class="data">
+    {{ feladat.name }}{{ feladat.id }}
+  </div>
+</div>
